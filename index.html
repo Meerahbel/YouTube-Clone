@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube-Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="div-1">
+        <img src="Images/menu icon.png" alt="menu icon" />
+        <div class="icon">
+          <img src="Images/youtube.png" alt="YouTube icon" />
+          <p>YouTube<sup>NG</sup></p>
+        </div>
+      </div>
+
+      <div class="div-2">
+        <div class="search-bar">
+          <input
+            type="text"
+            id="search"
+            placeholder="Search"
+            class="search-text"
+          />
+          <div class="search-icon">
+            <img src="Images/search 2.png" alt="search icon" />
+          </div>
+        </div>
+        <div class="mic">
+          <img src="Images/mic icon.png" alt="" />
+        </div>
+      </div>
+
+      <div class="div-3">
+        <img src="Images/video-cam.png" alt="video-cam icon" />
+        <img src="Images/notification.png" alt="notification icon" />
+        <img
+          src="Images/profile-pic.jpg"
+          alt="profile pic"
+          class="profile-pic"
+        />
+      </div>
+    </header>
+
+    <main>
+      <div class="side-bar">
+        <div class="nav first">
+          <div class="icon-text home">
+            <img src="Images/home icon.png" alt="home" />
+            <p>Home</p>
+          </div>
+          <div class="icon-text shorts">
+            <img src="Images/youtube shorts.png" alt="clip icon" />
+            <p>Shorts</p>
+          </div>
+          <div class="icon-text sub">
+            <img src="Images/subscription icon.png" alt="cash icon" />
+            <p>Subscriptions</p>
+          </div>
+        </div>
+
+        <div class="nav second">
+          <div class="icon-text you">
+            <p>You</p>
+            <img src="Images/right-arrow icon.png" alt="right arrow" />
+          </div>
+          <div class="icon-text history">
+            <img src="Images/history icon.png" alt="anti-clockwise icon" />
+            <p>History</p>
+          </div>
+          <div class="icon-text later">
+            <img src="Images/watch later icon.png" alt="clock" />
+            <p>Watch later</p>
+          </div>
+          <div class="icon-text like">
+            <img src="Images/thumbs-up icon.png" alt="thumbs icon" />
+            <p>Liked videos</p>
+          </div>
+          <div class="icon-text show">
+            <img src="Images/down-arrow icon.png" alt="down arrow icon" />
+            <p>Show more</p>
+          </div>
+        </div>
+
+        <div class="nav third">
+          <p>Subscriptions</p>
+          <div class="icon-text ninja">
+            <img src="Images/Net ninja.jpg" alt="netninja icon" />
+            <p>Net Ninja</p>
+          </div>
+          <div class="icon-text tech">
+            <img src="Images/PedroTech.jpg" alt="pedrotech icon" />
+            <p>PedroTech</p>
+          </div>
+          <div class="icon-text iroko">
+            <img src="Images/Iroko events.jpg" alt="iroko events icon" />
+            <p>Iroko Events</p>
+          </div>
+          <div class="icon-text browse">
+            <img src="Images/plus icon.png" alt="plus icon" />
+            <p>Browse Channels</p>
+          </div>
+          <div class="icon-text more">
+            <img src="Images/down-arrow icon.png" alt="down arrow icon" />
+            <p>Show 16 more</p>
+          </div>
+        </div>
+
+        <div class="nav fourth">
+          <p>Explore</p>
+          <div class="icon-text trend">
+            <img src="Images/trending icon.png" alt="trending icon" />
+            <p>Trending</p>
+          </div>
+          <div class="icon-text music">
+            <img src="Images/music icon.png" alt="music icon" />
+            <p>Music</p>
+          </div>
+          <div class="icon-text game">
+            <img src="Images/game-controller- icon.png" alt="gaming icon" />
+            <p>Gaming</p>
+          </div>
+          <div class="icon-text news">
+            <img src="Images/news icon.png" alt="news icon" />
+            <p>News</p>
+          </div>
+          <div class="icon-text sports">
+            <img src="Images/trophy icon.png" alt="sports icon" />
+            <p>Sports</p>
+          </div>
+        </div>
+
+        <div class="nav fifth">
+          <p>More From YouTube</p>
+          <div class="icon-text premium">
+            <img src="Images/youtube.png" alt="youtube icon" />
+            <p>YouTube Premium</p>
+          </div>
+          <div class="icon-text studio">
+            <img src="Images/youtube-studio icon.png" alt="youtube icon" />
+            <p>YouTube Studio</p>
+          </div>
+          <div class="icon-text mus">
+            <img src="Images/youtube-music icon.png" alt="youtube icon" />
+            <p>YouTube Music</p>
+          </div>
+          <div class="icon-text kids">
+            <img src="Images/youtube kids icon.png" alt="youtube icon" />
+            <p>YouTube Kids</p>
+          </div>
+        </div>
+
+        <div class="nav sixth">
+          <div class="icon-text settings">
+            <img src="Images/settings icon.png" alt="settings icon" />
+            <p>Settings</p>
+          </div>
+          <div class="icon-text report">
+            <img src="Images/flag icon.png" alt="report icon" />
+            <p>Report history</p>
+          </div>
+          <div class="icon-text help">
+            <img src="Images/help icon.png" alt="help icon" />
+            <p>Help</p>
+          </div>
+          <div class="icon-text send">
+            <img src="Images/feedback icon.png" alt="send icon" />
+            <p>Send feedback</p>
+          </div>
+        </div>
+
+        <div class="seventh">
+          <p>About</p>
+          <p>Press</p>
+          <p>Copyright</p>
+          <p>Contact us</p>
+          <p>Creators</p>
+          <p>Advertise</p>
+          <p>Developers</p>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="top-nav">
+          <div class="all nav-text">
+            <p>All</p>
+          </div>
+          <div class="nav-text">
+            <p>HTML</p>
+          </div>
+          <div class="nav-text">
+            <p>Nollywood</p>
+          </div>
+          <div class="nav-text">
+            <p>Computers</p>
+          </div>
+          <div class="nav-text">
+            <p>Music</p>
+          </div>
+          <div class="nav-text">
+            <p>User Interface Design</p>
+          </div>
+          <div class="nav-text">
+            <p>Romantic Comedies</p>
+          </div>
+          <div class="nav-text">
+            <p>Love & Hip Hop</p>
+          </div>
+          <div class="nav-text">
+            <p>Mixes</p>
+          </div>
+          <div class="nav-text">
+            <p>Gaming</p>
+          </div>
+          <div class="nav-text">
+            <p>Game Shows</p>
+          </div>
+        </div>
+        <div class="video-cards">
+          <div class="card-text">
+            <img src="Images/cards/Java course.jpg" alt="Javascript course" />
+            <div class="profile-text">
+              <div class="pic-text">
+                <div class="pic">
+                  <img src="Images/profile-pic.jpg" alt="profile-pic" />
+                </div>
+                <div class="txt">
+                  <p>Javascript Full Course(2023)</p>
+                </div>
+              </div>
+              <div class="texts">
+                <p>SuperSimpleDev</p>
+                <p>119K views <span>.</span> 3 months ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-text">
+            <img
+              src="Images/cards/Half and Half.jpg"
+              alt="Half and Half movie"
+            />
+            <div class="profile-text">
+              <div class="pic-text">
+                <div class="pic">
+                  <img src="Images/profile-pic.jpg" alt="profile-pic" />
+                </div>
+                <div class="txt">
+                  <p>Half and Half Full movie</p>
+                </div>
+              </div>
+              <div class="texts">
+                <p>Royal Arts Tv</p>
+                <p>1.1M views <span>.</span> 4 months ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-text">
+            <img src="Images/cards/Riss and quan.jpg" alt="riss and quan" />
+            <div class="profile-text">
+              <div class="pic-text">
+                <div class="pic">
+                  <img src="Images/profile-pic.jpg" alt="profile-pic" />
+                </div>
+                <div class="txt">
+                  <p>Showing Quan what pregnancy feels like</p>
+                </div>
+              </div>
+              <div class="texts">
+                <p>Riss & Quan</p>
+                <p>1.2M views <span>.</span> 3 months ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-text">
+            <img src="Images/cards/Tems.jpg" alt="Tems, me & u" />
+            <div class="profile-text">
+              <div class="pic-text">
+                <div class="pic">
+                  <img src="Images/profile-pic.jpg" alt="profile-pic" />
+                </div>
+                <div class="txt">
+                  <p>Tems me & u- Official video</p>
+                </div>
+              </div>
+              <div class="texts">
+                <p>Tems</p>
+                <p>6.6M views <span>.</span> 1 month ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-text">
+            <img src="Images/cards/node js.jpg" alt="node js tutorial" />
+            <div class="profile-text">
+              <div class="pic-text">
+                <div class="pic">
+                  <img src="Images/profile-pic.jpg" alt="profile-pic" />
+                </div>
+                <div class="txt">
+                  <p>Full Node js Tutorial</p>
+                </div>
+              </div>
+              <div class="texts">
+                <p>SuperSimpleDev</p>
+                <p>1.6M views <span>.</span> 1 month ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-text">
+            <img src="Images/cards/boss and I.jpg" alt="boss and i movie" />
+            <div class="profile-text">
+              <div class="pic-text">
+                <div class="pic">
+                  <img src="Images/profile-pic.jpg" alt="profile-pic" />
+                </div>
+                <div class="txt">
+                  <p>My Boss and I- Full Nigerian Movie</p>
+                </div>
+              </div>
+              <div class="texts">
+                <p>Chinnylove production</p>
+                <p>550K views <span>.</span> 5 months ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-text">
+            <img
+              src="Images/cards/trina and bobby.jpg"
+              alt="trina and bobby LHP"
+            />
+            <div class="profile-text">
+              <div class="pic-text">
+                <div class="pic">
+                  <img src="Images/profile-pic.jpg" alt="profile-pic" />
+                </div>
+                <div class="txt">
+                  <p>Trina & Bobby VS. Flo & Gaelle</p>
+                </div>
+              </div>
+              <div class="texts">
+                <p>Love and Hip Hop</p>
+                <p>180k <span>.</span> 5 days ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-text">
+            <img src="Images/cards/React js.jpg" alt="react js tutorial" />
+            <div class="profile-text">
+              <div class="pic-text">
+                <div class="pic">
+                  <img src="Images/profile-pic.jpg" alt="profile-pic" />
+                </div>
+                <div class="txt">
+                  <p>Learn React Js in 2hrs</p>
+                </div>
+              </div>
+              <div class="texts">
+                <p>FreeCodeCamp</p>
+                <p>6.6M views <span>.</span> 5 years ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-text">
+            <img src="Images/cards/halle.jpg" alt="halle-angel" />
+            <div class="profile-text">
+              <div class="pic-text">
+                <div class="pic">
+                  <img src="Images/profile-pic.jpg" alt="profile-pic" />
+                </div>
+                <div class="txt">
+                  <p>Halle-Angel (Acoustic performance)</p>
+                </div>
+              </div>
+              <div class="texts">
+                <p>Halle</p>
+                <p>1.2M views <span>.</span> 1 month ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-text">
+            <img src="Images/cards/jollof.jpg" alt="jollof" />
+            <div class="profile-text">
+              <div class="pic-text">
+                <div class="pic">
+                  <img src="Images/profile-pic.jpg" alt="profile-pic" />
+                </div>
+                <div class="txt">
+                  <p>How to prepare delicious Nigerian Jollof</p>
+                </div>
+              </div>
+              <div class="texts">
+                <p>Joyful Cook</p>
+                <p>110K views <span>.</span> 3 month ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-text">
+            <img src="Images/cards/chocolate cake.jpg" alt="cake" />
+            <div class="profile-text">
+              <div class="pic-text">
+                <div class="pic">
+                  <img src="Images/profile-pic.jpg" alt="profile-pic" />
+                </div>
+                <div class="txt">
+                  <p>How I made my homemade chocolate cake</p>
+                </div>
+              </div>
+              <div class="texts">
+                <p>Hazelnuts</p>
+                <p>880K views <span>.</span> 10 month ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-text">
+            <img src="Images/cards/babylon.jpg" alt="patoranking" />
+            <div class="profile-text">
+              <div class="pic-text">
+                <div class="pic">
+                  <img src="Images/profile-pic.jpg" alt="profile-pic" />
+                </div>
+                <div class="txt">
+                  <p>Patoranking- Babylon ft Victony</p>
+                </div>
+              </div>
+              <div class="texts">
+                <p>Patoranking music</p>
+                <p>2.6M views <span>.</span> 1 month ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-text">
+            <img src="Images/cards/food.jpg" alt="food website" />
+            <div class="profile-text">
+              <div class="pic-text">
+                <div class="pic">
+                  <img src="Images/profile-pic.jpg" alt="profile-pic" />
+                </div>
+                <div class="txt">
+                  <p>Build a responsive food landing page with me.</p>
+                </div>
+              </div>
+              <div class="texts">
+                <p>David Adam</p>
+                <p>300K views <span>.</span> 3 month ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-text">
+            <img src="Images/cards/chris.jpg" alt="chris brown" />
+            <div class="profile-text">
+              <div class="pic-text">
+                <div class="pic">
+                  <img src="Images/profile-pic.jpg" alt="profile-pic" />
+                </div>
+                <div class="txt">
+                  <p>Chris Brown- Sensational (Full Video)</p>
+                </div>
+              </div>
+              <div class="texts">
+                <p>ChrisBrown</p>
+                <p>4.6M views <span>.</span> 2 month ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-text">
+            <img src="Images/cards/timini.jpeg" alt="ITST" />
+            <div class="profile-text">
+              <div class="pic-text">
+                <div class="pic">
+                  <img src="Images/profile-pic.jpg" alt="profile-pic" />
+                </div>
+                <div class="txt">
+                  <p>Is This Seat Taken- Ep 5</p>
+                </div>
+              </div>
+              <div class="texts">
+                <p>ITST</p>
+                <p>900K views <span>.</span> 2 month ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-text">
+            <img src="Images/cards/feel.jpg" alt="davido-feel" />
+            <div class="profile-text">
+              <div class="pic-text">
+                <div class="pic">
+                  <img src="Images/profile-pic.jpg" alt="profile-pic" />
+                </div>
+                <div class="txt">
+                  <p>Davido-Feel</p>
+                </div>
+              </div>
+              <div class="texts">
+                <p>Davido</p>
+                <p>4.6M views <span>.</span> 2 month ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
